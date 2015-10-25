@@ -1,0 +1,10 @@
+This Shiny application is designed to help analysing trading strategies.
+
+*How to use the App as it is?
+The App requires a csv file containing returns data.  The file can be uploaded from your local machine, and must have two columns: date and daily return. 
+
+The code is comprised of two files:
+-ui.R: controls the layout and appearance of the app
+-server.R: contains the instructions needed to build the app. You can load as much strategies as you want as long as the corresponding csv file has the right format (see below).
+
+Put ui.R and server.R file in a separate directory.
